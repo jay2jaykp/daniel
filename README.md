@@ -1,3 +1,4 @@
 - run `docker compose up -d` to start the mySQL database in docker
 - go to `server` dir and run `npm install`
 - in `server`, run `npx prisma db push` to create tables in your docker mysql databse
+- run `npm run dev` to start the server and check the endpoints in Postman or ThunderClient.
